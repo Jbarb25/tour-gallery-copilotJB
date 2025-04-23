@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Gallery from './components/Gallery';
 import './App.css';
 
+// App component that fetches and displays a list of tours
 function App() {
   const [tours, setTours] = useState([]);
   const [loading, setLoading] = useState(true);
